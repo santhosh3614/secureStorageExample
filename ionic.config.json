@@ -1,0 +1,8 @@
+{
+  "name": "secureStorageExample",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular",
+  "pro_id": "9bc62b29"
+}

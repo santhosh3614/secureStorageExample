@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <p>
+    Testing Secure Storage Plugin.
+  </p>
+  <ion-list>
+
+    <ion-item>
+      <ion-label fixed>Enter String</ion-label>
+      <ion-input type="text" value="" [(ngModel)]="text"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label fixed>Enter Number</ion-label>
+      <ion-input type="number" value="" [(ngModel)]="number"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label fixed>Enter Password</ion-label>
+      <ion-input type="password" value="" [(ngModel)]="password"></ion-input>
+    </ion-item>
+
+    <button ion-button round (click)="savePref()">Submit</button>
+    
+  </ion-list>
+</ion-content>
